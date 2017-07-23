@@ -1,5 +1,5 @@
 # NYT React Search
-Homework assignment week 19
+Homework Assignment Week 19 
 
 # Objective
 Create a React-based rendition of the New York Times Article Search application.
