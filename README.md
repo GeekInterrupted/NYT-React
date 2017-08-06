@@ -1,19 +1,5 @@
-# NYT React Search
-Homework Assignment Week 19 
+# NYTReactSearch
 
-# Objective
-Create a React-based rendition of the New York Times Article Search application.
+This app uses the full MERN stack to create a New York Times search engine.  I used Mongo as a database, Express for the routes, React for the reactive design of the page, and Node as the engine.
 
-# Requirements
-* Create React Components
-* Work with helper functions
-* Utilize React mounting lifecycle to query and display articles based on user searches
-* Use Node, Express and MongoDB so that users can save articles to read later
-
-# Technologies
-* React
-* React-router
-* Node
-* Express
-* Mongo DB
-
+This app is live at [https://limitless-retreat-45887.herokuapp.com/](https://limitless-retreat-45887.herokuapp.com/)

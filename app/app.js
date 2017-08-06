@@ -1,15 +1,13 @@
-//Main React Dependencies
-import React from "react";
+// Include React et al
+import React, { Components } from "react";
 import ReactDOM from "react-dom";
-import Main from "./components/Main";
 
-//grab routes
-
-// import RouteMain from "./config/routes";
-
-//renders the contents according to the route page
-// ReactDOM.render(<RouteMain />, document.getElementById("app"));
-
-ReactDOM.render(<Main />, document.getElementById("app"));
+// Include the Main component
+import Main from "./Components/Main";
 
 
+// Render the Main Component
+ReactDOM.render(
+	<Main />,
+	document.getElementById('app')
+)

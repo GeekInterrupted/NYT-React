@@ -1,0 +1,141 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.App-header {
+    background-color: #222;
+    height: 175px;
+    padding: 20px;
+    color: white;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.jumbotron {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 54px;
+}
+
+h1,
+h2 {
+    padding-bottom: 25px;
+    padding-top: 25px;
+    font-family: 'Special Elite', cursive;
+    size: 3em;
+    letter-spacing: 2px;
+}
+
+.btn {
+    margin-top: 5px;
+    padding: 5px 5px;
+    border: 0 none;
+    font-weight: 15;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    outline: 0 none;
+}
+
+.btn:focus,
+.btn.active:focus {
+    outline: 0 none !important;
+    border: 0 none;
+    box-shadow: none !important;
+}
+
+.btn-primary {
+    background: #000000;
+    color: #ffffff;
+    border: 0 none;
+}
+
+.btn-delete {
+    background: #ec1c24;
+    color: #ffffff;
+    border: 0 none;
+}
+
+.btn-save {
+    background: #00695C;
+    color: #ffffff;
+    border: 0 none;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.active,
+.open>.dropdown-toggle.btn-primary {
+    background: #89908B;
+    outline: 0 none;
+    border: 0 none;
+}
+
+#active {
+    color: red
+}
+
+i {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.pulse {
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    /* background-color: red; */
+    animation-name: stretch;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+@keyframes stretch {
+    0% {
+        transform: scale(.25);
+        /* background-color: red; */
+        /* border-radius: 100%; */
+    }
+    50% {
+        /* background-color: orange; */
+    }
+    100% {
+        transform: scale(1.25);
+        /* background-color: yellow; */
+    }
+}
+
+.panel>.panel-heading {
+    background-image: none;
+    background-color: #000000;
+    color: white;
+    border-color: #000000;
+}
+
+* {
+    border-radius: 0 !important;
+}
+
+.panel-primary {
+    border-color: #000000;
+}
